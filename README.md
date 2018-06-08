@@ -8,4 +8,7 @@ Leetcode practice by using Kotlin
 5. Longest Palindromic Substring
 7. Reverse Integer
 8. String to Integer (atoi)
+9. Palindrome Number
+14. Longest Common Prefix
+15. 3Sum
 ```
