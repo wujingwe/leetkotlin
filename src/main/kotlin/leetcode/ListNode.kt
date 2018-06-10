@@ -2,6 +2,17 @@ package leetcode
 
 class ListNode(var `val`: Int = 0) {
     var next: ListNode? = null
+
+    override fun equals(other: Any?): Boolean {
+        if (other !is ListNode) {
+            return false
+        }
+        return `val` == other.`val`
+    }
+
+    override fun hashCode(): Int {
+        return `val`
+    }
 }
 
 fun createListNode(vararg nums: Int) : ListNode {
