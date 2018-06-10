@@ -30,13 +30,3 @@ fun main(args: Array<String>) {
     val result = sol.addTwoNumbers(l1, l2)
     println("${result?.`val`} -> ${result?.next?.`val`} -> ${result?.next?.next?.`val`}")
 }
-
-fun createListNode(vararg nums: Int) : ListNode {
-    val result = ListNode(nums[0])
-    var curr = result
-    for (i in 1 until nums.size) {
-        curr.next = ListNode(nums[i])
-        curr = curr.next!!
-    }
-    return result
-}
