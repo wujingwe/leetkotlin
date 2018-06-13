@@ -28,4 +28,5 @@ Leetcode practice by using Kotlin
 39. Combination Sum (https://leetcode.com/problems/combination-sum/)
 40. Combination Sum II (https://leetcode.com/problems/combination-sum-ii/)
 43. Multiply Strings (https://leetcode.com/problems/multiply-strings/)
+46. Permutations (https://leetcode.com/problems/permutations/)
 ```
