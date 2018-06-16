@@ -36,4 +36,5 @@ Leetcode practice by using Kotlin
 69. Sqrt(x) (https://leetcode.com/problems/sqrtx/)
 70. Climbing Stairs (https://leetcode.com/problems/climbing-stairs/)
 83. Remove Duplicates from Sorted List (https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+* 88. Merge Sorted Array (https://leetcode.com/problems/merge-sorted-array/)
 ```
