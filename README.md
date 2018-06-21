@@ -47,4 +47,5 @@ Leetcode practice by using Kotlin
 83. Remove Duplicates from Sorted List (https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 * 88. Merge Sorted Array (https://leetcode.com/problems/merge-sorted-array/)
 100. Same Tree (https://leetcode.com/problems/same-tree/)
+104. Maximum Depth of Binary Tree (https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 ```
