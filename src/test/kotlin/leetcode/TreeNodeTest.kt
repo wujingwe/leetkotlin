@@ -22,12 +22,22 @@ class TreeNodeTest {
     }
 
     @Test
-    fun `Print TreeNodes`() {
+    fun `Print TreeNodes1`() {
         System.setOut(PrintStream("result.txt"))
         printTreeNode(createTreeNodes(1, 2, null, 3, null, 4, null, 5))
 
         val file = File("result.txt")
         assertThat(file.readText()).isEqualTo("1, 2, null, 3, null, 4, null, 5")
+        file.delete()
+    }
+
+    @Test
+    fun `Print TreeNodes2`() {
+        System.setOut(PrintStream("result.txt"))
+        printTreeNode(createTreeNodes(0, -10, 5, null, -3, null, 9))
+
+        val file = File("result.txt")
+        assertThat(file.readText()).isEqualTo("0, -10, 5, null, -3, null, 9")
         file.delete()
     }
 }

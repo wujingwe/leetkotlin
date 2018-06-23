@@ -41,6 +41,7 @@ fun printTreeNode(node: TreeNode?) {
     while (parents.isNotEmpty()) {
         val head = parents.removeAt(0)
         if (head != null
+                || parents.isNotEmpty()
                 || children.isNotEmpty()) { // has siblings
             if (sb.isNotEmpty()) {
                 sb.append(", ")
