@@ -3,6 +3,17 @@ package leetcode
 class TreeNode(var `val`: Int = 0) {
     var left: TreeNode? = null
     var right: TreeNode? = null
+
+    override fun equals(other: Any?): Boolean {
+        if (other !is TreeNode) {
+            return false
+        }
+        return `val` == other.`val`
+    }
+
+    override fun hashCode(): Int {
+        return `val`
+    }
 }
 
 fun createTreeNodes(vararg nums: Int?): TreeNode {
