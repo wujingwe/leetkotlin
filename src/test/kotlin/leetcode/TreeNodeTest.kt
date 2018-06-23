@@ -28,5 +28,6 @@ class TreeNodeTest {
 
         val file = File("result.txt")
         assertThat(file.readText()).isEqualTo("1, 2, null, 3, null, 4, null, 5")
+        file.delete()
     }
 }
