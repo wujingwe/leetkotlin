@@ -27,6 +27,6 @@ class TreeNodeTest {
         printTreeNode(createTreeNodes(1, 2, null, 3, null, 4, null, 5))
 
         val file = File("result.txt")
-        assertThat(file.readText()).isEqualTo("1, 2, null, 3, null, 4, null, 5, null, null, null, ")
+        assertThat(file.readText()).isEqualTo("1, 2, null, 3, null, 4, null, 5")
     }
 }

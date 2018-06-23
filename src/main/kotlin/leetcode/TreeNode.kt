@@ -34,15 +34,31 @@ fun createTreeNodes(vararg nums: Int?): TreeNode {
 }
 
 fun printTreeNode(node: TreeNode?) {
-    val queue = mutableListOf(node)
+    val parents = mutableListOf(node)
+    val children = mutableListOf<TreeNode?>()
+    val sb = StringBuilder()
 
-    while (queue.isNotEmpty()) {
-        val head = queue.removeAt(0)
-        print("${head?.`val`}, ")
+    while (parents.isNotEmpty()) {
+        val head = parents.removeAt(0)
+        if (head != null
+                || children.isNotEmpty()) { // has siblings
+            if (sb.isNotEmpty()) {
+                sb.append(", ")
+            }
+            sb.append("${head?.`val`}")
+        }
 
-        if (head != null) {
-            queue.add(head.left)
-            queue.add(head.right)
+        if (head?.left != null || head?.right != null) {
+            children.add(head.left)
+            children.add(head.right)
+        }
+
+        if (parents.isEmpty()) {
+            children.forEach {
+                parents.add(it)
+            }
+            children.clear()
         }
     }
+    print(sb.toString())
 }
