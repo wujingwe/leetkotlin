@@ -50,4 +50,5 @@ Leetcode practice by using Kotlin
 104. Maximum Depth of Binary Tree (https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 107. Binary Tree Level Order Traversal II (https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
 108. Convert Sorted Array to Binary Search Tree (https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+110. Balanced Binary Tree (https://leetcode.com/problems/balanced-binary-tree/)
 ```
