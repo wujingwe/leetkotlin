@@ -6,38 +6,43 @@ class TreeNode(var `val`: Int = 0) {
 }
 
 fun createTreeNodes(vararg nums: Int?): TreeNode {
-    val queue = mutableListOf<TreeNode>()
+    val queue = mutableListOf<TreeNode?>()
     val head = TreeNode(nums[0]!!)
     queue.add(head)
 
     var index = 1
-    while (index < nums.size - 1) {
+    while (queue.isNotEmpty() && index < nums.size) {
         val node = queue.removeAt(0)
-        if (nums[index] != null) {
-            node.left = TreeNode(nums[index]!!)
-            queue.add(node.left!!)
+
+        if (node != null) {
+            // left
+            if (nums[index] != null) {
+                node.left = TreeNode(nums[index]!!)
+                queue.add(node.left)
+            }
+            index++
+
+            // right
+            if (index < nums.size && nums[index] != null) {
+                node.right = TreeNode(nums[index]!!)
+                queue.add(node.right)
+            }
+            index++
         }
-        if (nums[index + 1] != null) {
-            node.right = TreeNode(nums[index + 1]!!)
-            queue.add(node.right!!)
-        }
-        index += 2
     }
     return head
 }
 
-fun printTreeNode(node: TreeNode) {
+fun printTreeNode(node: TreeNode?) {
     val queue = mutableListOf(node)
 
     while (queue.isNotEmpty()) {
         val head = queue.removeAt(0)
-        print("$head -> ")
+        print("${head?.`val`}, ")
 
-        if (head.left != null) {
-            queue.add(head.left!!)
-        }
-        if (head.right != null) {
-            queue.add(head.right!!)
+        if (head != null) {
+            queue.add(head.left)
+            queue.add(head.right)
         }
     }
 }
