@@ -59,4 +59,5 @@ Leetcode practice by using Kotlin
 111. Minimum Depth of Binary Tree (https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 112. Path Sum (https://leetcode.com/problems/path-sum/)
 118. Pascal's Triangle (https://leetcode.com/problems/pascals-triangle/)
+119. Pascal's Triangle II (https://leetcode.com/problems/pascals-triangle-ii/)
 ```
