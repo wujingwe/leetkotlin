@@ -9,6 +9,7 @@ Leetcode practice by using Kotlin
 7. Reverse Integer (https://leetcode.com/problems/reverse-integer/)
 8. String to Integer (atoi) (https://leetcode.com/problems/string-to-integer-atoi/)
 9. Palindrome Number (https://leetcode.com/problems/palindrome-number/)
+10. Regular Expression Matching (https://leetcode.com/problems/regular-expression-matching/)
 14. Longest Common Prefix (https://leetcode.com/problems/longest-common-prefix/)
 15. 3Sum (https://leetcode.com/problems/3sum/)
 16. 3Sum Closest (https://leetcode.com/problems/3sum-closest/)
