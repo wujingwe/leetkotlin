@@ -71,6 +71,7 @@ Leetcode practice by using Kotlin
 * 122. Best Time to Buy and Sell Stock II (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 125. Valid Palindrome (https://leetcode.com/problems/valid-palindrome/)
 136. Single Number (https://leetcode.com/problems/single-number/)
+* 155. Min Stack (https://leetcode.com/problems/min-stack/)
 198. House Robber (https://leetcode.com/problems/house-robber/)
 202. Happy Number (https://leetcode.com/problems/happy-number/)
 ```
