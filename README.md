@@ -76,4 +76,5 @@ Leetcode practice by using Kotlin
 * 189. Rotate Array (https://leetcode.com/problems/rotate-array/)
 198. House Robber (https://leetcode.com/problems/house-robber/)
 202. Happy Number (https://leetcode.com/problems/happy-number/)
+203. Remove Linked List Elements (https://leetcode.com/problems/remove-linked-list-elements/)
 ```
