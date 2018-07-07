@@ -27,6 +27,7 @@ Leetcode practice by using Kotlin
 * 26. Remove Duplicates from Sorted Array (https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 27. Remove Element (https://leetcode.com/problems/remove-element/)
 * 28. Implement strStr() (https://leetcode.com/problems/implement-strstr/)
+30. Substring with Concatenation of All Words (https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
 * 35. Search Insert Position (https://leetcode.com/problems/search-insert-position/)
 36. Valid Sudoku (https://leetcode.com/problems/valid-sudoku/)
 38. Count and Say (https://leetcode.com/problems/count-and-say/)
