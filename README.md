@@ -85,4 +85,5 @@ Leetcode practice by using Kotlin
 203. Remove Linked List Elements (https://leetcode.com/problems/remove-linked-list-elements/)
 217. Contains Duplicate (https://leetcode.com/problems/contains-duplicate/)
 219. Contains Duplicate II (https://leetcode.com/problems/contains-duplicate-ii/)
+226. Invert Binary Tree (https://leetcode.com/problems/invert-binary-tree/)
 ```
