@@ -86,4 +86,5 @@ Leetcode practice by using Kotlin
 217. Contains Duplicate (https://leetcode.com/problems/contains-duplicate/)
 219. Contains Duplicate II (https://leetcode.com/problems/contains-duplicate-ii/)
 226. Invert Binary Tree (https://leetcode.com/problems/invert-binary-tree/)
+231. Power of Two (https://leetcode.com/problems/power-of-two/)
 ```
