@@ -89,4 +89,5 @@ Leetcode practice by using Kotlin
 226. Invert Binary Tree (https://leetcode.com/problems/invert-binary-tree/)
 231. Power of Two (https://leetcode.com/problems/power-of-two/)
 232. Implement Queue using Stacks (https://leetcode.com/problems/implement-queue-using-stacks/)
+234. Palindrome Linked List (https://leetcode.com/problems/palindrome-linked-list/)
 ```
