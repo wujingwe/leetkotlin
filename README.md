@@ -95,4 +95,5 @@ Leetcode practice by using Kotlin
 257. Binary Tree Paths (https://leetcode.com/problems/binary-tree-paths/)
 258. Add Digits (https://leetcode.com/problems/add-digits/)
 263. Ugly Number (https://leetcode.com/problems/ugly-number/)
+268. Missing Number (https://leetcode.com/problems/missing-number/)
 ```
