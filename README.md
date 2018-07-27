@@ -97,4 +97,5 @@ Leetcode practice by using Kotlin
 263. Ugly Number (https://leetcode.com/problems/ugly-number/)
 268. Missing Number (https://leetcode.com/problems/missing-number/)
 283. Move Zeroes (https://leetcode.com/problems/move-zeroes/)
+290. Word Pattern (https://leetcode.com/problems/word-pattern/)
 ```
