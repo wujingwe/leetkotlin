@@ -98,4 +98,5 @@ Leetcode practice by using Kotlin
 268. Missing Number (https://leetcode.com/problems/missing-number/)
 283. Move Zeroes (https://leetcode.com/problems/move-zeroes/)
 290. Word Pattern (https://leetcode.com/problems/word-pattern/)
+303. Range Sum Query - Immutable (https://leetcode.com/problems/range-sum-query-immutable/)
 ```
