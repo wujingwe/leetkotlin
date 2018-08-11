@@ -100,4 +100,5 @@ Leetcode practice by using Kotlin
 290. Word Pattern (https://leetcode.com/problems/word-pattern/)
 303. Range Sum Query - Immutable (https://leetcode.com/problems/range-sum-query-immutable/)
 349. Intersection of Two Arrays (https://leetcode.com/problems/intersection-of-two-arrays/)
+350. Intersection of Two Arrays II (https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 ```
